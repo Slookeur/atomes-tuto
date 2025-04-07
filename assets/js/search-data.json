@@ -1,0 +1,177 @@
+{"0": {
+    "doc": "Create an empty project to build a crystal",
+    "title": "Create an empty project to build a crystal",
+    "content": "Create a new empty project: \"Workspace -&gt; Project -&gt; New\" or press Ctrl+n, then open the crystal builder for the new, and empty, 3D window: \"Tools -&gt; Edit -&gt; Crystal Builder\" . ",
+    "url": "/atomes-tuto/chap-3/section-1/",
+    
+    "relUrl": "/chap-3/section-1/"
+  },"1": {
+    "doc": "Check the model and open the \"\\texttt{Model Edition\" dialog",
+    "title": "Check the model and open the “\\texttt{Model Edition” dialog",
+    "content": "Newly inserted water molecules, under selection, appear in light blue. If you rotate to model box to face right, water molecules appear perfectly aligned. To create disorder open the \"Random Move\" tab of the \"Model Edition\" dialog: \"Tools -&gt; Edit -&gt; Atoms -&gt; Random Move\" . ",
+    "url": "/atomes-tuto/chap-3/section-5/#check-the-model-and-open-the-textttmodel-edition-dialog",
+    
+    "relUrl": "/chap-3/section-5/#check-the-model-and-open-the-textttmodel-edition-dialog"
+  },"2": {
+    "doc": "Check the model and open the \"\\texttt{Model Edition\" dialog",
+    "title": "Check the model and open the \"\\texttt{Model Edition\" dialog",
+    "content": " ",
+    "url": "/atomes-tuto/chap-3/section-5/",
+    
+    "relUrl": "/chap-3/section-5/"
+  },"3": {
+    "doc": "Open the surface creation utility",
+    "title": "Open the surface creation utility",
+    "content": "To create a surface in this crystalline material, open the dedicated tool: \"Tools -&gt; Edit -&gt; Cell -&gt; Cut Slab\" . ",
+    "url": "/atomes-tuto/chap-3/section-3/",
+    
+    "relUrl": "/chap-3/section-3/"
+  },"4": {
+    "doc": "Randomly rotate all water molecules to create disorder",
+    "title": "Randomly rotate all water molecules to create disorder",
+    "content": "This interface allows to search for, and move randomly, atom(s) or group of atom(s), selection target(s) appearing in the table bellow. Also note that, quite conveniently, \"All selected atoms\" are by default targets of the action(s) to be performed. To work on water molecules set the search parameters as follow: . | \"For\": use \"Group of atomes: all\" to work on group of atoms, and not atom(s) individually, and to display a single interactor for all object(s) instead of a list detailed list. | \"Filter\": use \"Partial coordination\", to display a list of partial coordination(s) matching previously set criteria. | . Then selected to \"Rotate\" all \"O[H_2]\" coordination spheres, that is all water molecules, set a maximum Mean Square Displacement by adjusting the corresponding parameter, and if required specify how many times the process is to be repeated. ",
+    "url": "/atomes-tuto/chap-3/section-6/",
+    
+    "relUrl": "/chap-3/section-6/"
+  },"5": {
+    "doc": "Prepare and cut a cylinder slab",
+    "title": "Prepare and cut a cylinder slab",
+    "content": "Adjust the shape of the slab to \"Cylinder\", in the \"Size\" options adjust the cylinder length and radius to 80 Å and 15 Å respectively. You can display the slab using the \"Show/Hide slab\" interactor, also export the results of the cutting/passivating in a new project by activating the corresponding option. Check on \"Passivate surface\" and, in the option dialog that immediately opens, and as illustrated select to passivate empty C-C bonds created when cutting the slab with water molecule. Then just click on \"Cut this slab now !\" to create a new project, that will contain the new material: a C diamond cell where the atoms inside the cylinder are removed, creating a surface, and where non-bridging bonds have been passivated using H\\(_2\\)O molecules. ",
+    "url": "/atomes-tuto/chap-3/section-4/",
+    
+    "relUrl": "/chap-3/section-4/"
+  },"6": {
+    "doc": "Build a large diamond-like structure",
+    "title": "Build a large diamond-like structure",
+    "content": "Adjust parameters to selected space group and corresponding settings, in this example large diamond-like crystal: Cubic, Face-centered, space group N°227 \"Fd-3m (1)\" Select the object(s) to be inserted at crystalline position(s), in this example C atom(s), note that in atomes it is also possible to use molecular fragments inserted from the software library or from any project opened in the workspace. If needed adjust position, and / or occupancy, then remember to select the object(s) to be actually inserted when building the crystal by clicking on \"Insert\". Then simply click on \"Build\". The 3D window is populated with the newly created structure, in this example a \"20\\(\\times\\)20\\(\\times\\)20\" supercell of pure diamond. ",
+    "url": "/atomes-tuto/chap-3/section-2/",
+    
+    "relUrl": "/chap-3/section-2/"
+  },"7": {
+    "doc": "Building a crystal, then creating and passivating a surface",
+    "title": "Building a crystal, then creating and passivating a surface",
+    "content": " ",
+    "url": "/atomes-tuto/chap-3/",
+    
+    "relUrl": "/chap-3/"
+  },"8": {
+    "doc": "Open the atomes\\ g-\\sio\\ project file",
+    "title": "Open the atomes\\ g-\\sio\\ project file",
+    "content": "Open the atomes project file for the system \"\\(g\\)SiO\\(_2\\) with ring statistics and custom color map, 3000 atoms\" Note that the \"Toolboxes\" dialog is active and some results, from calculation performed previously and stored in the project file, are available, including for the radial distribution function g(r). ",
+    "url": "/atomes-tuto/chap-2/section-1/",
+    
+    "relUrl": "/chap-2/section-1/"
+  },"9": {
+    "doc": "Correct the periodicity of the new model",
+    "title": "Correct the periodicity of the new model",
+    "content": "From the main interface open the \"Edit\" menu and select \"Box and Periodicity\" to reproduce the periodicity of the initial model describing properly the simulation box (a \\(=\\) b \\(=\\) c \\(= 35.6621\\) Å, \\(\\alpha = \\beta = \\gamma = 90~^{\\circ}\\), and be sure to use Periodic Boundary Conditions), then apply changes. The new model now uses periodic boundary conditions, if required the box can be displayed in the 3D window using the corresponding menu button: \"Model -&gt; Box -&gt; Show/Hide\". ",
+    "url": "/atomes-tuto/chap-2/section-5/",
+    
+    "relUrl": "/chap-2/section-5/"
+  },"10": {
+    "doc": "Visualize the results of the calculation",
+    "title": "Visualize the results of the calculation",
+    "content": "When the calculation is completed, close the dialog, and note that the content of the \"Toolboxes\" dialog is updated, the results of the calculation being available: . | | \\(\\Longrightarrow\\) | | \\(\\Longrightarrow\\) | | . | | &swArr; | . In the \"Toolboxes\" dialog open the result of the calculation to display the g(r) of the active project, in this case the new model created from the atom selection. ",
+    "url": "/atomes-tuto/chap-2/section-7/",
+    
+    "relUrl": "/chap-2/section-7/"
+  },"11": {
+    "doc": "Select all atoms in ring(s) of size 6",
+    "title": "Select all atoms in ring(s) of size 6",
+    "content": "\"Pick\" all atoms in ring(s) of size 6: atoms in the 3D window are then selected and highlighted in light blue color. ",
+    "url": "/atomes-tuto/chap-2/section-3/",
+    
+    "relUrl": "/chap-2/section-3/"
+  },"12": {
+    "doc": "Compute the g(r) for the new model",
+    "title": "Compute the g(r) for the new model",
+    "content": "Again from the main interface open the \"Analyze\" menu, then select \"g(r) / G(r)\", to open the associated calculation dialog. Set parameter(s) to acceptable value(s) and run the analysis. ",
+    "url": "/atomes-tuto/chap-2/section-6/",
+    
+    "relUrl": "/chap-2/section-6/"
+  },"13": {
+    "doc": "Create a new model using the atom selection",
+    "title": "Create a new model using the atom selection",
+    "content": "Go back to the 3D window, and mouse right click on any selected atom, then browse the contextual menu that pops up to \"Edit as New Project\", then select \"All Selected Atom(s)/Bond(s)\" . | | \\(\\Longrightarrow\\) | | . This will create a new atomes project that will immediately be inserted in the program’s workspace, and the corresponding 3D window will appear. This new model contains all atoms involved in King’s rings of size 6 selected previously in the disordered SiO\\(_2\\) model. ",
+    "url": "/atomes-tuto/chap-2/section-4/",
+    
+    "relUrl": "/chap-2/section-4/"
+  },"14": {
+    "doc": "Open the \"\\texttt{Environment configuration\" window",
+    "title": "Open the “\\texttt{Environment configuration” window",
+    "content": "Go back to the 3D window of the \\(g\\)-SiO\\(_2\\) model, for clarity purpose change color map to standard chemical species: from the \"OpenGL -&gt; Color Scheme(s)\" menu, or press a as many times as required. Then open the \"Environments configuration\" window: from the \"Chemistry\" menu or press Ctrl+e, and open the tab labelled \"King’s ring(s)[KR]\". | | \\(\\Longrightarrow\\) | | . This tab provides interactors with King’s ring statistics calculation results: color of the ring’s polyhedra, and then options to show/hide, label/unlabel, or select/unselect atom(s) involved in any ring(s) of the corresponding size. ",
+    "url": "/atomes-tuto/chap-2/section-2/#open-the-textttenvironment-configuration-window",
+    
+    "relUrl": "/chap-2/section-2/#open-the-textttenvironment-configuration-window"
+  },"15": {
+    "doc": "Open the \"\\texttt{Environment configuration\" window",
+    "title": "Open the \"\\texttt{Environment configuration\" window",
+    "content": " ",
+    "url": "/atomes-tuto/chap-2/section-2/",
+    
+    "relUrl": "/chap-2/section-2/"
+  },"16": {
+    "doc": "Add the data from the calcuation on the entire g-\\sio\\ model",
+    "title": "Add the data from the calcuation on the entire g-\\sio\\ model",
+    "content": "On the curve window press the mouse right click, browse the menu to \"Add Data Set -&gt; gSiO_2 -&gt; g(r) neutrons\" to add the corresponding data set to the representation: . | | \\(\\Longrightarrow\\) | | | | . Note that projects opened in atomes share data. Therefore calculation results, from any model in the workspace and provided that the calculations have been performed, can be compared easily. In this example it allows to compare the g(r) for the \\(g\\)-SiO\\(_2\\) system with a partial contribution from the atoms involved in King’s rings of size 6. ",
+    "url": "/atomes-tuto/chap-2/section-8/",
+    
+    "relUrl": "/chap-2/section-8/"
+  },"17": {
+    "doc": "Getting information on selected structural features&#58; g(r) in $g$-\\sio",
+    "title": "Getting information on selected structural features: g(r) in $g$-\\sio",
+    "content": "The following example illustrates how atomes can be use to retrieve information on selected structural features: . ",
+    "url": "/atomes-tuto/chap-2/#getting-information-on-selected-structural-features-gr-in-g-sio",
+    
+    "relUrl": "/chap-2/#getting-information-on-selected-structural-features-gr-in-g-sio"
+  },"18": {
+    "doc": "Getting information on selected structural features&#58; g(r) in $g$-\\sio",
+    "title": "Getting information on selected structural features&#58; g(r) in $g$-\\sio",
+    "content": " ",
+    "url": "/atomes-tuto/chap-2/",
+    
+    "relUrl": "/chap-2/"
+  },"19": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "This documents regroups tutorials to help user discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in \\(g\\)-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
+    "url": "/atomes-tuto/chap-1/",
+    
+    "relUrl": "/chap-1/"
+  },"20": {
+    "doc": "atomes&#58; tutorials",
+    "title": " atomes: tutorials",
+    "content": ". ",
+    "url": "/atomes-tuto/#-atomes-tutorials",
+    
+    "relUrl": "/#-atomes-tutorials"
+  },"21": {
+    "doc": "atomes&#58; tutorials",
+    "title": "Welcome to the tutorials of the atomes program",
+    "content": "atomes is a cross-platform Free (Open Source) software. It is developped by Dr. Sébastien Le Roux, research engineer for the CNRS . Dr. Sébastien Le Roux works at the Institut de Physique et Chimie des Matériaux de Strasbourg IPCMS . This website presents the user tutorials for the atomes program. This website is hosted on GitHub and was created using Jekyll. You can download the complete tutorials in PDF here: atomes tutorials PDF . ",
+    "url": "/atomes-tuto/#welcome-to-the-tutorials-of-the-atomes-program",
+    
+    "relUrl": "/#welcome-to-the-tutorials-of-the-atomes-program"
+  },"22": {
+    "doc": "atomes&#58; tutorials",
+    "title": "atomes: user manual",
+    "content": "You can also check the atomes documentation: . | atomes: user manual | . ",
+    "url": "/atomes-tuto/#atomes-user-manual",
+    
+    "relUrl": "/#atomes-user-manual"
+  },"23": {
+    "doc": "atomes&#58; tutorials",
+    "title": "License",
+    "content": "This work is licensed under a Creative Commons Attribution 4.0 International License   . ",
+    "url": "/atomes-tuto/#license",
+    
+    "relUrl": "/#license"
+  },"24": {
+    "doc": "atomes&#58; tutorials",
+    "title": "atomes&#58; tutorials",
+    "content": " ",
+    "url": "/atomes-tuto/",
+    
+    "relUrl": "/"
+  }
+}
