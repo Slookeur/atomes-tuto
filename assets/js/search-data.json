@@ -148,7 +148,7 @@
   },"21": {
     "doc": "Introduction",
     "title": "Introduction",
-    "content": "This documents regroups tutorials to help user discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
+    "content": "This documents regroups tutorials to help users discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
     "url": "/atomes-tuto/chap-1/",
     
     "relUrl": "/chap-1/"
