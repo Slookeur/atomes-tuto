@@ -120,7 +120,7 @@
   },"17": {
     "doc": "Add the calculation data for the entire <it>g</it>-SiO<sub>2</sub> model",
     "title": "Add the calculation data for the entire g-SiO2 model",
-    "content": "On the curve window press the mouse right click, browse the menu to \"Add Data Set -&gt; gSiO2 -&gt; g(r) neutrons\" to add the corresponding data set to the representation: . | | \\(\\Longrightarrow\\) | | . Note that projects opened in atomes share data. Therefore calculation results, from any model in the workspace and provided that the calculations have been performed, can be compared easily. In this example it allows to compare the g(r) for the \\(g\\)-SiO2 system with a partial contribution from the atoms involved in King’s rings of size 6. ",
+    "content": "On the curve window press the mouse right click, browse the menu to \"Add Data Set -&gt; gSiO\\(_2\\) -&gt; g(r) neutrons\" to add the corresponding data set to the representation: . | | \\(\\Longrightarrow\\) | | . Note that projects opened in atomes share data. Therefore calculation results, from any model in the workspace and provided that the calculations have been performed, can be compared easily. In this example it allows to compare the g(r) for the \\(g\\)-SiO\\(_2\\) system with a partial contribution from the atoms involved in King’s rings of size 6. ",
     "url": "/atomes-tuto/chap-2/section-8/#add-the-calculation-data-for-the-entire-g-sio2-model",
     
     "relUrl": "/chap-2/section-8/#add-the-calculation-data-for-the-entire-g-sio2-model"
@@ -148,7 +148,7 @@
   },"21": {
     "doc": "Introduction",
     "title": "Introduction",
-    "content": "This documents regroups tutorials to help users discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
+    "content": "This documents regroups tutorials to help user discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
     "url": "/atomes-tuto/chap-1/",
     
     "relUrl": "/chap-1/"
