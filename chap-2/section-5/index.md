@@ -1,0 +1,13 @@
+---
+title: Correct the periodicity of the new model
+parent:  Getting information on selected structural features&#58; g(r) in <it>g</it>-SiO<sub>2</sub>
+nav_order: 5
+date: 2025-04-08 15:13:41
+maths: 1
+---
+
+# Correct the periodicity of the new model
+
+{% include chap-2/section-5/section-5.html %}
+
+{% bibliography --cited %}
