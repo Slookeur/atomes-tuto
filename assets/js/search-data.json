@@ -27,9 +27,9 @@
     
     "relUrl": "/chap-3/section-3/"
   },"4": {
-    "doc": "Randomly rotate all water molecules to create disorder",
-    "title": "Randomly rotate all water molecules to create disorder",
-    "content": "This interface allows to search for, and move randomly, atom(s) or group of atom(s), selection target(s) appearing in the table bellow. Also note that, quite conveniently, \"All selected atoms\" are by default targets of the action(s) to be performed. To work on water molecules set the search parameters as follow: . | \"For\": use \"Group of atomes: all\" to work on group of atoms, and not atom(s) individually, and to display a single interactor for all object(s) instead of a list detailed list. | \"Filter\": use \"Partial coordination\", to display a list of partial coordination(s) matching previously set criteria. | . Then selected to \"Rotate\" all \"O[H_2]\" coordination spheres, that is all water molecules, set a maximum Mean Square Displacement by adjusting the corresponding parameter, and if required specify how many times the process is to be repeated. ",
+    "doc": "Randomly rotate water molecules to create disorder",
+    "title": "Randomly rotate water molecules to create disorder",
+    "content": "This interface allows to search for, and move randomly, atom(s) or group of atom(s), selection target(s) appearing in the table bellow. Also note that, quite conveniently, \"All selected atoms\" are by default targets of the action(s) to be performed. To work on water molecules set the search parameters as follow: . | \"For\": use \"Group of atomes: all\" to work on group of atoms, and not atom(s) individually, and to display a single interactor for all object(s) instead of a list detailed list. | \"Filter\": use \"Partial coordination\", to display a list of partial coordination(s) matching previously set criteria. | . Then selected to \"Rotate\" all \"O[H2]\" coordination spheres, that is all water molecules, set a maximum Mean Square Displacement by adjusting the corresponding parameter, and if required specify how many times the process is to be repeated. ",
     "url": "/atomes-tuto/chap-3/section-6/",
     
     "relUrl": "/chap-3/section-6/"
@@ -78,7 +78,7 @@
   },"11": {
     "doc": "Visualize the results of the calculation",
     "title": "Visualize the results of the calculation",
-    "content": "When the calculation is completed, close the dialog, and note that the content of the \"Toolboxes\" dialog is updated, the results of the calculation being available: . | | \\(\\Longrightarrow\\) | | \\(\\Longrightarrow\\) | | . | | &swArr; | . In the \"Toolboxes\" dialog open the result of the calculation to display the g(r) of the active project, in this case the new model created from the atom selection. ",
+    "content": "When the calculation is completed, close the dialog, and note that the content of the \"Toolboxes\" dialog is updated, the results of the calculation being available: . In the \"Toolboxes\" dialog open the result of the calculation to display the g(r) of the active project, in this case the new model created from the atom selection. ",
     "url": "/atomes-tuto/chap-2/section-7/",
     
     "relUrl": "/chap-2/section-7/"
@@ -99,14 +99,14 @@
   },"14": {
     "doc": "Create a new model using the atom selection",
     "title": "Create a new model using the atom selection",
-    "content": "Go back to the 3D window, and mouse right click on any selected atom, then browse the contextual menu that pops up to \"Edit as New Project\", then select \"All Selected Atom(s)/Bond(s)\" . | | \\(\\Longrightarrow\\) | | . This will create a new atomes project that will immediately be inserted in the program’s workspace, and the corresponding 3D window will appear. This new model contains all atoms involved in King’s rings of size 6 selected previously in the disordered SiO\\(_2\\) model. ",
+    "content": "Go back to the 3D window, and mouse right click on any selected atom, then browse the contextual menu that pops up to \"Edit as New Project\", then select \"All Selected Atom(s)/Bond(s)\" . This will create a new atomes project that will immediately be inserted in the program’s workspace, and the corresponding 3D window will appear. This new model contains all atoms involved in King’s rings of size 6 selected previously in the disordered SiO\\(_2\\) model. ",
     "url": "/atomes-tuto/chap-2/section-4/",
     
     "relUrl": "/chap-2/section-4/"
   },"15": {
     "doc": "Open the \"Environment configuration\" window",
     "title": "Open the “Environment configuration” window",
-    "content": "Go back to the 3D window of the \\(g\\)-SiO\\(_2\\) model, for clarity purpose change color map to standard chemical species: from the \"OpenGL -&gt; Color Scheme(s)\" menu, or press a as many times as required. Then open the \"Environments configuration\" window: from the \"Chemistry\" menu or press Ctrl+e, and open the tab labelled \"King’s ring(s)[KR]\". | | \\(\\Longrightarrow\\) | | . This tab provides interactors with King’s ring statistics calculation results: color of the ring’s polyhedra, and then options to show/hide, label/unlabel, or select/unselect atom(s) involved in any ring(s) of the corresponding size. ",
+    "content": "Go back to the 3D window of the \\(g\\)-SiO\\(_2\\) model, for clarity purpose change color map to standard chemical species: from the \"OpenGL -&gt; Color Scheme(s)\" menu, or press a as many times as required. Then open the \"Environments configuration\" window: from the \"Chemistry\" menu or press Ctrl+e, and open the tab labelled \"King’s ring(s)[KR]\". This tab provides interactors with King’s ring statistics calculation results: color of the ring’s polyhedra, and then options to show/hide, label/unlabel, or select/unselect atom(s) involved in any ring(s) of the corresponding size. ",
     "url": "/atomes-tuto/chap-2/section-2/#open-the-environment-configuration-window",
     
     "relUrl": "/chap-2/section-2/#open-the-environment-configuration-window"
@@ -120,7 +120,7 @@
   },"17": {
     "doc": "Add the calculation data for the entire <it>g</it>-SiO<sub>2</sub> model",
     "title": "Add the calculation data for the entire g-SiO2 model",
-    "content": "On the curve window press the mouse right click, browse the menu to \"Add Data Set -&gt; gSiO\\(_2\\) -&gt; g(r) neutrons\" to add the corresponding data set to the representation: . | | \\(\\Longrightarrow\\) | | . Note that projects opened in atomes share data. Therefore calculation results, from any model in the workspace and provided that the calculations have been performed, can be compared easily. In this example it allows to compare the g(r) for the \\(g\\)-SiO\\(_2\\) system with a partial contribution from the atoms involved in King’s rings of size 6. ",
+    "content": "On the curve window press the mouse right click, browse the menu to \"Add Data Set -&gt; gSiO2 -&gt; g(r) neutrons\" to add the corresponding data set to the representation: . Note that projects opened in atomes share data. Therefore calculation results, from any model in the workspace and provided that the calculations have been performed, can be compared easily. In this example it allows to compare the g(r) for the \\(g\\)-SiO2 system with a partial contribution from the atoms involved in King’s rings of size 6. ",
     "url": "/atomes-tuto/chap-2/section-8/#add-the-calculation-data-for-the-entire-g-sio2-model",
     
     "relUrl": "/chap-2/section-8/#add-the-calculation-data-for-the-entire-g-sio2-model"
@@ -148,7 +148,7 @@
   },"21": {
     "doc": "Introduction",
     "title": "Introduction",
-    "content": "This documents regroups tutorials to help user discover the capabilities of the atomes program. Tutorials cover many aspects of atomes capabilities: . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\). | Building a crystal, then creating and passivating a surface. | . ",
+    "content": "The following regroups tutorials to help user discover the atomes program. Tutorials cover many aspects of atomes capabilities: . | Importing atomic coordinates - see [[tuto-1]] . | Opening atomes project and workspace file(s) - see [[tuto-2]] . | Evaluating and comparing physico-chemical properties - see [[tuto-3]] . | Visualizing clone(s) - see [[tuto-4]] . | Visualizing coordination polyhedra - see [[tuto-5]] . | Using the cell edition utility - see [[tuto-6]] . | Using the model edition utility - see [[tuto-7]] . | Using the crystal builder - see [[tuto-8]] . | Getting information on selected structural features: g(r) in g-SiO\\(_2\\) - see [2] . | Building a crystal, then creating and passivating a surface - see [3] . | . ",
     "url": "/atomes-tuto/chap-1/",
     
     "relUrl": "/chap-1/"
